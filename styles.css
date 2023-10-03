@@ -1,0 +1,18 @@
+* {
+    background-color: #8a9a5b;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    
+}
+
+div.recipes {
+    text-align: center;
+}
+
+ul.list {
+    display: inline-block;
+    text-align: left;
+}
