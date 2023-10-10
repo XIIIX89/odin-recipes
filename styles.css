@@ -1,18 +1,36 @@
-* {
+body {
     background-color: #8a9a5b;
+    box-sizing: border-box;
 }
 
 h1 {
     text-align: center;
     font-size: 36px;
+    height: 110px;
+    width: auto;
+    padding: 0px;
+    border: 2px solid black;
+    border-bottom: 10px double black;
+    margin: auto auto 10px auto;
+
     
 }
 
-div.recipes {
-    text-align: center;
+#underheader {
+    font-size: 20px;
 }
 
-ul.list {
-    display: inline-block;
+div.recipes {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    border: 4px dotted black;
+    background-color: lightgrey;
+}
+
+.recipes .list {
+    margin: 10px auto;
+    display: block;
     text-align: left;
 }
+
